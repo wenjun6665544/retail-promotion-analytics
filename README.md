@@ -23,7 +23,7 @@ Pass-through is the consumer discount divided by the manufacturer’s wholesale 
 
 ## Reproduce the threshold calculation
 
-[Open the SAS script](analysis/break_even.sas) in SAS Studio and run it. It uses four embedded rows of aggregate case inputs and prints the thresholds; no household records, file paths, or additional downloads are needed. The [results CSV](results/promotion_summary.csv) also includes both parties’ modeled profit changes at both rates.
+[Open the SAS script](break_even.sas) in SAS Studio and run it. It uses four embedded rows of aggregate case inputs and prints the thresholds; no household records, file paths, or additional downloads are needed. The [results CSV](promotion_summary.csv) also includes both parties’ modeled profit changes at both rates.
 
 If regular retail price is R, consumer discount is d, and expected brand sales lift is g (80% = 0.80), regular manufacturer unit margin is m = 0.45 × 0.80 × R. At pass-through t, manufacturer unit margin falls to m − d/t. Equating promotion profit to baseline profit gives:
 
