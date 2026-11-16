@@ -1,0 +1,5 @@
+brand,regular_price_cents_per_oz,consumer_discount_cents_per_oz,predicted_brand_sales_lift_pct,retailer_category_profit_change_at_100_pct,retailer_category_profit_change_at_70_pct,manufacturer_brand_profit_change_at_100_pct,manufacturer_brand_profit_change_at_70_pct,minimum_pass_through_pct
+Wisk,7.18,0.70,80.0,20.8,27.2,31.2,10.3,60.9
+All,4.59,0.82,134.0,24.3,37.3,17.9,-31.9,86.7
+Tide,7.29,0.97,88.0,35.7,59.8,18.5,-11.3,79.0
+Cheer,6.54,0.65,70.9,19.6,28.1,23.7,3.5,66.5
